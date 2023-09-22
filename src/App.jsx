@@ -12,8 +12,7 @@ function App() {
     let data = {
       [event.target[0].name]: event.target[0].value,
       [event.target[1].name]: event.target[1].value,
-      [event.target[2].name]: event.target[2].value,
-      [event.target[3].name]: event.target[3].value,
+      [event.target[2].name]: event.target[event.target[2].name].value,
       [event.target[4].name]: event.target[4].value,
       [event.target[5].name]: event.target[5].value,
       [event.target[6].name]: event.target[6].value,
