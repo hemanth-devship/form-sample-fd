@@ -55,11 +55,22 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.user img{
+.user img {
   width: 8rem;
   height: 10rem;
   border-radius: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.img-file {
+  width: 5rem;
+  /* height: 5rem; */
+  /* object-fit: fill; */
+  border-radius: 0.5rem;
+}
+
+.error{
+  color: red;
 }
 
 @media (prefers-color-scheme: light) {
