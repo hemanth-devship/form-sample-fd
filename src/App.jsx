@@ -6,6 +6,7 @@ import {
 import "./App.css";
 import Register from "./pages/register";
 import Todos from "./pages/Todos";
+import { Login } from "./pages/Login";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/todos",
     element: <Todos />
+  },
+  {
+    path: "/login",
+    element: <Login />
   }
   // {
   //   path: "*",
